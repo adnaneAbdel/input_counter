@@ -1,0 +1,46 @@
+.ipt{
+    color: white;
+    padding:5px;
+    font-weight: bold;
+
+}
+
+input:focus{
+    outline: none;
+   
+}
+input{
+ width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+
+}
+.row{
+    position: relative;
+    top: 10vh;
+}
+
+.counter{
+    font-size:x-large ;
+    position:relative;
+    float: right;
+
+}
+.progresss{
+    height:2px;
+    width: 0px;
+    position: relative;
+    top:-2px;
+    color:red;
+    background-color: red;
+    display:block;
+}
+.zero{
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
